@@ -1,7 +1,7 @@
 ESX = nil
 ESX              = nil
 local PlayerData = {}
-
+-- Jak używacie np FeedM, możecie to skasować. Ale podmieńcie sobie notyfikacje
 Citizen.CreateThread(function()
 	while ESX == nil do
 		TriggerEvent('esx:getSharedObject', function(obj) ESX = obj end)
