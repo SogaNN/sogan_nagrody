@@ -16,7 +16,7 @@ Citizen.CreateThread(function()
     local ped = PlayerPedId()
     while true do
     
-        Citizen.Wait(.. Config.Czas ..)
+        Citizen.Wait(Config.Czas)
         TriggerServerEvent('sogan:addmoneyminuts')
         ESX.ShowNotification('Dostałeś '.. Config.Cena .. "$ Za 30 minut gry na serwerze" )
     end
