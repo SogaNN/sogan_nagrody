@@ -1,5 +1,5 @@
+-- Script Center - https://discord.gg/H5pFcct7fU
 ESX = nil
-ESX              = nil
 local PlayerData = {}
 -- Jak używacie np FeedM, możecie to skasować. Ale podmieńcie sobie notyfikacje
 Citizen.CreateThread(function()
@@ -9,20 +9,6 @@ Citizen.CreateThread(function()
 	end
 end)
 
-
-
-
-
-
-
-
-
-
-RegisterNetEvent('sogan:nyggagnugagnuangunagungunau')
-AddEventHandler('sogan:nyggagnugagnuangunagungunau', function()
-    print("Dodano")
-    
-end)
 
 
 
@@ -36,3 +22,4 @@ Citizen.CreateThread(function()
     end
 
 end)
+-- Script Center - https://discord.gg/H5pFcct7fU
