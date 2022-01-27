@@ -17,7 +17,7 @@ Citizen.CreateThread(function()
     while true do
     
         Citizen.Wait(1800000)
-        TriggerServerEvent('sogan:nyggagnugagnuangunagungunau')
+        TriggerServerEvent('sogan:addmoneyminuts')
         ESX.ShowNotification('Dostałeś '.. Config.Cena .. "$ Za 30 minut gry na serwerze" )
     end
 
